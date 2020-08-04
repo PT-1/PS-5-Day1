@@ -1,0 +1,149 @@
+<!-- Author = Pratik Tiwari
+TE COMP B
+ROLL 41
+PS DAY 1 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Page</title>
+    <style>
+      .headerOnly {
+        border: 2px solid pink;
+        padding: 10px;
+        background-color: cyan;
+      }
+      p.header {
+        padding:5px;
+        text-align: center;
+        font-size: 24px;
+        font-family: verdana;
+        color: red;
+      }
+      p.references {
+        padding:5px;
+        margin: 10px;
+        text-align: left;
+        font-size: 24px;
+        font-family: verdana;
+        color: red;
+      }
+      p.section {
+        padding:10px;
+        text-align: center;
+        font-size: 20px;
+        font-family: verdana;
+        color: black;
+      }
+      hr.dashed{
+        border: 2px dashed green;
+        height: 5px;
+      }
+      article {
+        border: 2px solid green;
+        <!-- width: 25%; -->
+        padding: 10px;
+        background-color: lightgreen;
+      }
+      }
+      table {
+        width: 100%;
+        align: center;
+      }
+      table, td {
+        border: 2px solid black;
+        padding: 15px;
+        cellspacing: 15px;
+      }
+      aside{
+        width: 400px;
+        border: 3px solid green;
+        padding: 20px;
+        margin: 20px;
+      }
+        /* asideDiv {
+        border: 3px solid green;
+        padding: 20px;
+        margin: 20px;
+        display: block;
+      } */
+      .footerDown{
+        padding: 3px;
+        background-color: salmon;
+        color: white;
+      }
+      u {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="headerOnly">
+      <img align="left" src="html5.jpg" alt="html image" height="75px" width="125px">
+      <img align="right" src="css3.png" alt="html image" height="75px" width="80px">
+      <p class="header">Know about Web Engines.<br></p>
+    </header>
+    <hr class="dashed">
+    <section class="sectionCenter" style="background-color: lightblue;">
+        <p class="section">
+          This is an important section of the page.<br>
+          It will brief about engines used by various browsers.<br>
+          It contains articles about web engines.<br><br>
+        </p>
+        <table align="center">
+          <caption style="font-size:28px; color: orange;">Web Browser Engines</caption>
+          <tr>
+            <td>
+              <article class="articleInSection">
+                <h3><u>Google chrome</u></h3>
+                <p>Web engine used is Blink</p>
+              </article>
+            </td>
+            <td>
+              <article class="articleInSection">
+                <h3><u>Mozilla Firefox</u></h3>
+                <p>Web engine used is Gecho</p>
+              </article>
+            </td>
+            <td>
+              <article class="articleInSection">
+                <h3><u>General Engine</u></h3>
+                <p>Web engine used is WEngine</p>
+              </article>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </section><br>
+      <hr><hr>
+      <!-- <aside>
+          <h4 align= center><u>References</u></h4>
+          <iframe src="https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/"
+          width="400px" height="350px"></iframe>
+      </aside> -->
+      <!-- <aside> -->
+        <!-- <div class="asideDiv"> -->
+          <!-- <h4 align= center><u>References</u></h4> -->
+          <!-- <iframe src="https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/" -->
+          <!-- width="400px" height="350px"></iframe> -->
+        <!-- </div> -->
+      <!-- </aside> -->
+      <nav>
+        <p class="references">Refernces are: </p>
+        <ul type="disc">
+          <li><a href="https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/">
+            how-browser-rendering-works-behind-the-scenes</a></li><br>
+            <li><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_footer_css">
+              Footer w3schools</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <footer class="footerDown" align="center">
+        <p>Author: Pratik Tiwari</p>
+        <h3>Student: TCET 2020</h3>
+      </footer>
+  </body>
+</html>
